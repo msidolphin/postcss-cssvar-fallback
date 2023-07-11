@@ -1,0 +1,363 @@
+html {
+  --kd-color-orange-1: 255, 239, 231;
+  --kd-color-orange-2: 255, 224, 208;
+  --kd-color-orange-3: 255, 195, 165;
+  --kd-color-orange-4: 255, 164, 117;
+  --kd-color-orange-5: 255, 125, 58;
+  --kd-color-orange-6: 240, 91, 19;
+  --kd-color-orange-7: 224, 76, 0;
+  --kd-color-orange-8: 169, 60, 5;
+  --kd-color-orange-9: 133, 45, 1;
+  --kd-color-orange-10: 96, 32, 0;
+  --kd-color-yellow-1: 252, 242, 224;
+  --kd-color-yellow-2: 248, 228, 187;
+  --kd-color-yellow-3: 248, 214, 144;
+  --kd-color-yellow-4: 249, 201, 107;
+  --kd-color-yellow-5: 248, 185, 56;
+  --kd-color-yellow-6: 233, 157, 0;
+  --kd-color-yellow-7: 196, 130, 0;
+  --kd-color-yellow-8: 154, 102, 0;
+  --kd-color-yellow-9: 112, 74, 0;
+  --kd-color-yellow-10: 72, 48, 0;
+  --kd-color-verdure-1: 236, 247, 213;
+  --kd-color-verdure-2: 216, 238, 172;
+  --kd-color-verdure-3: 191, 218, 136;
+  --kd-color-verdure-4: 165, 198, 99;
+  --kd-color-verdure-5: 143, 182, 63;
+  --kd-color-verdure-6: 109, 163, 0;
+  --kd-color-verdure-7: 91, 136, 0;
+  --kd-color-verdure-8: 71, 106, 0;
+  --kd-color-verdure-9: 54, 82, 0;
+  --kd-color-verdure-10: 39, 59, 0;
+  --kd-color-green-1: 227, 247, 235;
+  --kd-color-green-2: 187, 242, 210;
+  --kd-color-green-3: 137, 226, 175;
+  --kd-color-green-4: 101, 207, 146;
+  --kd-color-green-5: 63, 183, 114;
+  --kd-color-green-6: 0, 161, 71;
+  --kd-color-green-7: 0, 136, 59;
+  --kd-color-green-8: 0, 112, 49;
+  --kd-color-green-9: 0, 86, 37;
+  --kd-color-green-10: 0, 62, 27;
+  --kd-color-teal-1: 227, 246, 244;
+  --kd-color-teal-2: 183, 241, 237;
+  --kd-color-teal-3: 145, 222, 216;
+  --kd-color-teal-4: 106, 202, 195;
+  --kd-color-teal-5: 68, 186, 178;
+  --kd-color-teal-6: 0, 165, 154;
+  --kd-color-teal-7: 0, 138, 129;
+  --kd-color-teal-8: 0, 108, 101;
+  --kd-color-teal-9: 0, 84, 79;
+  --kd-color-teal-10: 0, 60, 56;
+  --kd-color-azure-1: 231, 245, 250;
+  --kd-color-azure-2: 200, 236, 248;
+  --kd-color-azure-3: 145, 218, 245;
+  --kd-color-azure-4: 80, 200, 242;
+  --kd-color-azure-5: 52, 182, 229;
+  --kd-color-azure-6: 0, 158, 215;
+  --kd-color-azure-7: 0, 132, 180;
+  --kd-color-azure-8: 0, 103, 142;
+  --kd-color-azure-9: 0, 80, 110;
+  --kd-color-azure-10: 0, 57, 78;
+  --kd-color-blue-1: 236, 244, 255;
+  --kd-color-blue-2: 215, 231, 255;
+  --kd-color-blue-3: 161, 199, 255;
+  --kd-color-blue-4: 107, 167, 255;
+  --kd-color-blue-5: 59, 137, 255;
+  --kd-color-blue-6: 10, 108, 255;
+  --kd-color-blue-7: 0, 99, 244;
+  --kd-color-blue-8: 0, 82, 206;
+  --kd-color-blue-9: 0, 66, 163;
+  --kd-color-blue-10: 0, 48, 122;
+  --kd-color-navy-1: 242, 243, 253;
+  --kd-color-navy-2: 226, 228, 250;
+  --kd-color-navy-3: 191, 193, 242;
+  --kd-color-navy-4: 153, 160, 234;
+  --kd-color-navy-5: 123, 130, 233;
+  --kd-color-navy-6: 94, 103, 238;
+  --kd-color-navy-7: 84, 92, 233;
+  --kd-color-navy-8: 61, 70, 218;
+  --kd-color-navy-9: 49, 58, 171;
+  --kd-color-navy-10: 39, 44, 115;
+  --kd-color-indigo-1: 246, 242, 254;
+  --kd-color-indigo-2: 234, 226, 252;
+  --kd-color-indigo-3: 207, 188, 246;
+  --kd-color-indigo-4: 179, 151, 238;
+  --kd-color-indigo-5: 158, 116, 240;
+  --kd-color-indigo-6: 136, 84, 244;
+  --kd-color-indigo-7: 127, 69, 246;
+  --kd-color-indigo-8: 105, 37, 238;
+  --kd-color-indigo-9: 85, 39, 179;
+  --kd-color-indigo-10: 62, 36, 113;
+  --kd-color-violet-1: 251, 238, 254;
+  --kd-color-violet-2: 247, 222, 252;
+  --kd-color-violet-3: 240, 192, 250;
+  --kd-color-violet-4: 233, 160, 247;
+  --kd-color-violet-5: 223, 122, 243;
+  --kd-color-violet-6: 212, 80, 238;
+  --kd-color-violet-7: 186, 56, 212;
+  --kd-color-violet-8: 152, 47, 174;
+  --kd-color-violet-9: 118, 36, 135;
+  --kd-color-violet-10: 86, 24, 98;
+  --kd-color-purple-1: 252, 239, 246;
+  --kd-color-purple-2: 254, 221, 239;
+  --kd-color-purple-3: 254, 189, 222;
+  --kd-color-purple-4: 253, 161, 207;
+  --kd-color-purple-5: 249, 129, 189;
+  --kd-color-purple-6: 243, 91, 168;
+  --kd-color-purple-7: 220, 57, 138;
+  --kd-color-purple-8: 175, 40, 108;
+  --kd-color-purple-9: 138, 27, 83;
+  --kd-color-purple-10: 102, 16, 59;
+  --kd-color-red-1: 255, 240, 240;
+  --kd-color-red-2: 253, 222, 222;
+  --kd-color-red-3: 249, 179, 179;
+  --kd-color-red-4: 244, 133, 133;
+  --kd-color-red-5: 239, 89, 89;
+  --kd-color-red-6: 216, 60, 60;
+  --kd-color-red-7: 208, 44, 44;
+  --kd-color-red-8: 178, 30, 30;
+  --kd-color-red-9: 146, 20, 20;
+  --kd-color-red-10: 108, 13, 13;
+  --kd-color-gray-1: 250, 250, 250;
+  --kd-color-gray-2: 242, 242, 242;
+  --kd-color-gray-3: 230, 230, 230;
+  --kd-color-gray-4: 219, 219, 219;
+  --kd-color-gray-5: 204, 204, 204;
+  --kd-color-gray-6: 145, 145, 145;
+  --kd-color-gray-7: 117, 117, 117;
+  --kd-color-gray-8: 87, 87, 87;
+  --kd-color-gray-9: 51, 51, 51;
+  --kd-color-gray-10: 13, 13, 13;
+  --kd-color-white: 255, 255, 255;
+  --kd-color-black: 0, 0, 0;
+  --kd-color-brand-1: 236, 244, 255;
+  --kd-color-brand-2: 215, 231, 255;
+  --kd-color-brand-3: 161, 199, 255;
+  --kd-color-brand-4: 107, 167, 255;
+  --kd-color-brand-5: 59, 137, 255;
+  --kd-color-brand-6: 10, 108, 255;
+  --kd-color-brand-7: 0, 92, 221;
+  --kd-color-brand-8: 0, 75, 191;
+  --kd-color-brand-9: 0, 62, 155;
+  --kd-color-brand-10: 0, 48, 122;
+  --kd-color-public-normal: rgba(var(--kd-color-blue-6), 1);
+  --kd-color-public-hover: rgba(var(--kd-color-blue-5), 1);
+  --kd-color-public-pressed: rgba(var(--kd-color-blue-7), 1);
+  --kd-color-public-light: rgba(var(--kd-color-blue-1), 1);
+  --kd-color-brand-normal: rgba(var(--kd-color-brand-6), 1);
+  --kd-color-brand-hover: rgba(var(--kd-color-brand-5), 1);
+  --kd-color-brand-pressed: rgba(var(--kd-color-brand-7), 1);
+  --kd-color-brand-light: rgba(var(--kd-color-brand-1), 1);
+  --kd-color-text-primary: rgba(var(--kd-color-gray-10), 0.9);
+  --kd-color-text-secondary: rgba(var(--kd-color-gray-10), 0.66);
+  --kd-color-text-tertiary: rgba(var(--kd-color-gray-10), 0.46);
+  --kd-color-text-public: rgba(var(--kd-color-blue-7), 1);
+  --kd-color-text-white: rgba(var(--kd-color-white), 1);
+  --kd-color-text-brand: rgba(var(--kd-color-brand-7), 1);
+  --kd-color-text-success: rgba(var(--kd-color-green-7), 1);
+  --kd-color-text-info: rgba(var(--kd-color-blue-7), 1);
+  --kd-color-text-error: rgba(var(--kd-color-red-7), 1);
+  --kd-color-text-warning: rgba(var(--kd-color-orange-7), 1);
+  --kd-color-text-highlight: rgba(var(--kd-color-yellow-7), 1);
+  --kd-color-icon-primary: rgba(var(--kd-color-gray-9), 1);
+  --kd-color-icon-secondary: rgba(var(--kd-color-gray-7), 1);
+  --kd-color-icon-public: rgba(var(--kd-color-blue-7), 1);
+  --kd-color-icon-white: rgba(var(--kd-color-white), 1);
+  --kd-color-icon-brand: rgba(var(--kd-color-brand-7), 1);
+  --kd-color-icon-success: rgba(var(--kd-color-green-6), 1);
+  --kd-color-icon-info: rgba(var(--kd-color-blue-6), 1);
+  --kd-color-icon-error: rgba(var(--kd-color-red-6), 1);
+  --kd-color-icon-warning: rgba(var(--kd-color-orange-6), 1);
+  --kd-color-icon-highlight: rgba(var(--kd-color-yellow-6), 1);
+  --kd-color-state-normal: rgba(var(--kd-color-gray-10), 0);
+  --kd-color-state-hover: rgba(var(--kd-color-gray-10), 0.06);
+  --kd-color-state-pressed: rgba(var(--kd-color-gray-10), 0.1);
+  --kd-color-state-pressed-public: rgba(var(--kd-color-blue-6), 0.1);
+  --kd-color-state-pressed-brand: rgba(var(--kd-color-brand-6), 0.1);
+  --kd-color-background-top: rgba(var(--kd-color-white), 1);
+  --kd-color-background-middle: rgba(var(--kd-color-white), 1);
+  --kd-color-background-bottom: rgba(var(--kd-color-white), 1);
+  --kd-color-background-plate: rgba(var(--kd-color-gray-1), 1);
+  --kd-color-background-base: rgba(var(--kd-color-gray-2), 1);
+  --kd-color-background-frame: rgba(var(--kd-color-gray-3), 1);
+  --kd-color-line-heavy: rgba(var(--kd-color-gray-10), 0.48);
+  --kd-color-line-medium: rgba(var(--kd-color-gray-10), 0.24);
+  --kd-color-line-regular: rgba(var(--kd-color-gray-10), 0.12);
+  --kd-color-line-light: rgba(var(--kd-color-gray-10), 0.06);
+  --kd-color-line-public: rgba(var(--kd-color-blue-6), 1);
+  --kd-color-line-white: rgba(var(--kd-color-white), 1);
+  --kd-color-line-brand: rgba(var(--kd-color-brand-6), 1);
+  --kd-color-line-success: rgba(var(--kd-color-green-6), 1);
+  --kd-color-line-info: rgba(var(--kd-color-blue-6), 1);
+  --kd-color-line-error: rgba(var(--kd-color-red-6), 1);
+  --kd-color-line-warning: rgba(var(--kd-color-orange-6), 1);
+  --kd-color-line-highlight: rgba(var(--kd-color-yellow-6), 1);
+  --kd-color-fill-extra-heavy: rgba(var(--kd-color-gray-6), 1);
+  --kd-color-fill-heavy: rgba(var(--kd-color-gray-5), 1);
+  --kd-color-fill-medium: rgba(var(--kd-color-gray-4), 1);
+  --kd-color-fill-regular: rgba(var(--kd-color-gray-3), 1);
+  --kd-color-fill-light: rgba(var(--kd-color-gray-2), 1);
+  --kd-color-fill-base: rgba(var(--kd-color-white), 1);
+  --kd-color-mask-regular: rgba(var(--kd-color-gray-10), 0.5);
+  --kd-color-mask-heavy: rgba(var(--kd-color-gray-10), 0.8);
+  --kd-color-info-normal: rgba(var(--kd-color-blue-6), 1);
+  --kd-color-info-hover: rgba(var(--kd-color-blue-5), 1);
+  --kd-color-info-pressed: rgba(var(--kd-color-blue-7), 1);
+  --kd-color-info-light: rgba(var(--kd-color-blue-1), 1);
+  --kd-color-success-normal: rgba(var(--kd-color-green-6), 1);
+  --kd-color-success-hover: rgba(var(--kd-color-green-5), 1);
+  --kd-color-success-pressed: rgba(var(--kd-color-green-7), 1);
+  --kd-color-success-light: rgba(var(--kd-color-green-1), 1);
+  --kd-color-error-normal: rgba(var(--kd-color-red-6), 1);
+  --kd-color-error-hover: rgba(var(--kd-color-red-5), 1);
+  --kd-color-error-pressed: rgba(var(--kd-color-red-7), 1);
+  --kd-color-error-light: rgba(var(--kd-color-red-1), 1);
+  --kd-color-highlight-normal: rgba(var(--kd-color-yellow-6), 1);
+  --kd-color-highlight-hover: rgba(var(--kd-color-yellow-5), 1);
+  --kd-color-highlight-pressed: rgba(var(--kd-color-yellow-7), 1);
+  --kd-color-highlight-light: rgba(var(--kd-color-yellow-1), 1);
+  --kd-color-warning-normal: rgba(var(--kd-color-orange-6), 1);
+  --kd-color-warning-hover: rgba(var(--kd-color-orange-5), 1);
+  --kd-color-warning-pressed: rgba(var(--kd-color-orange-7), 1);
+  --kd-color-warning-light: rgba(var(--kd-color-orange-1), 1);
+  --kd-box-shadow-extra-small: 0px 0px 0px 1px
+      rgba(var(--kd-color-gray-10), 0.1),
+    0px 1px 0px rgba(var(--kd-color-gray-10), 0.14);
+  --kd-box-shadow-small: 0px 1px 4px rgba(var(--kd-color-gray-10), 0.1);
+  --kd-box-shadow-middle: 0px 1px 4px rgba(var(--kd-color-gray-10), 0.14);
+  --kd-box-shadow-large: 0px 12px 32px rgba(var(--kd-color-gray-10), 0.08);
+  --kd-box-shadow-extra-large: 0px 32px 48px rgba(var(--kd-color-gray-10), 0.2);
+  --kd-box-shadow-glow: 0px 0px 4px rgba(var(--kd-color-blue-6), 1);
+  --kd-font-family: "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto",
+    "Helvetica Neue", "PingFang SC", "Noto Sans", "Noto Sans CJK SC",
+    "Microsoft YaHei", "微软雅黑", "sans-serif";
+  --kd-font-size-extra-small: 10px;
+  --kd-font-size-small: 12px;
+  --kd-font-size-base: 14px;
+  --kd-font-size-middle: 16px;
+  --kd-font-size-large: 18px;
+  --kd-font-size-extra-large: 20px;
+  --kd-font-size-xx-large: 24px;
+  --kd-font-size-xxx-large: 28px;
+  --kd-font-weight-regular: 400;
+  --kd-font-weight-bold: 600;
+  --kd-font-line-height-extra-small: calc(
+    var(--kd-font-size-extra-small) + 8px
+  );
+  --kd-font-line-height-small: calc(var(--kd-font-size-small) + 8px);
+  --kd-font-line-height-base: calc(var(--kd-font-size-base) + 8px);
+  --kd-font-line-height-middle: calc(var(--kd-font-size-middle) + 8px);
+  --kd-font-line-height-large: calc(var(--kd-font-size-large) + 12px);
+  --kd-font-line-height-extra-large: calc(
+    var(--kd-font-size-extra-large) + 12px
+  );
+  --kd-font-line-height-xx-large: calc(var(--kd-font-size-xx-large) + 12px);
+  --kd-font-line-height-xxx-large: calc(var(--kd-font-size-xxx-large) + 12px);
+  --kd-font-line-height-reset: 1;
+  --kd-font-line-height-text: 1.625;
+  --kd-border-radius-none: 0;
+  --kd-border-radius-extra-small: 2px;
+  --kd-border-radius-small: 4px;
+  --kd-border-radius-middle: 6px;
+  --kd-border-radius-large: 8px;
+  --kd-border-radius-extra-large: 12px;
+  --kd-border-radius-circle: 50%;
+  --kd-all-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  --kd-fade-transition: opacity 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  --kd-fade-linear-transition: opacity 200ms linear;
+  --kd-md-fade-transition: transform 300ms cubic-bezier(0.23, 1, 0.32, 1) 100ms,
+    opacity 300ms cubic-bezier(0.23, 1, 0.32, 1) 100ms;
+  --kd-border-transition-base: border-color 0.2s
+    cubic-bezier(0.645, 0.045, 0.355, 1);
+  --kd-color-transition-base: color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  --kd-animation-fade-in-down: fadeInDown 0.2s;
+  --kd-animation-fade-out-up: fadeOutUp 0.2s;
+  --kd-animation-fade-in-up: fadeInUp 0.2s;
+  --kd-animation-fade-in-right: fadeInRight 0.2s;
+  --kd-animation-fade-scaleY-in: fadeScaleYIn 0.2s;
+  --kd-animation-bounce-in: bounceIn 0.3s 1;
+  --kd-z-index-invisible: -100;
+  --kd-z-index-default: 1;
+  --kd-z-index-float: 10;
+  --kd-z-index-mask: 999;
+  --kd-z-index-dialog: 1000;
+  --kd-z-index-reminder: 1020;
+  --kd-z-index-popover: 1030;
+  --kd-z-index-popupmenu: 1040;
+  --kd-z-index-tip: 1050;
+  --kd-color-state-pressed-brand-filter: invert(37%) sepia(95%) saturate(4253%)
+    hue-rotate(209deg) brightness(99%) contrast(107%);
+  --kd-opacity-disabled: 0.3;
+  --kd-color-brand-disable: rgba(
+    var(--kd-color-brand-6),
+    var(--kd-opacity-disabled)
+  );
+  --kd-color-text-disable: rgba(var(--kd-color-gray-10), 0.27);
+}
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -50%, 0);
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeOutUp {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(0, -5px, 0);
+  }
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+@keyframes fadeScaleYIn {
+  0% {
+    opacity: 0;
+    transform: scaleY(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scaleY(1);
+  }
+}
+@keyframes bounceIn {
+  20%,
+  40%,
+  60%,
+  80%,
+  from,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  to {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}
