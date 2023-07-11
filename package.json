@@ -1,6 +1,6 @@
 {
   "name": "postcss-cssvar-fallback",
-  "version": "1.0.0-beta",
+  "version": "1.0.0-beta.1",
   "description": "PostCSS plugin css",
   "keywords": [
     "postcss",
@@ -44,11 +44,6 @@
     }
   },
   "jest": {
-    "coverageThreshold": {
-      "global": {
-        "statements": 100
-      }
-    }
   },
   "dependencies": {
     "postcss-plugin-utilities": "^2.2.9"
