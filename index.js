@@ -9,8 +9,8 @@ const variables = new Map()
  */
 module.exports = postcss.plugin('postcss-cssvar-fallback', (options) => {
   if (variables.size === 0) {
-    const { path } = options
-    const themes = fs.readFileSync(path, 'utf-8')
+    const { themePath } = options
+    const themes = fs.readFileSync(themePath, 'utf-8')
     const root = postcss.parse(themes)
     const nodes = root.nodes
     // 收集cssvar

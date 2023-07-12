@@ -6,13 +6,13 @@
 
 ```css
 .foo {
-  /* Input example */
+  color: var(--primary-color);
 }
 ```
 
 ```css
 .foo {
-  /* Output example */
+  color: var(--primary-color, red);
 }
 ```
 
@@ -36,9 +36,23 @@ and set this plugin in settings.
 ```diff
 module.exports = {
   plugins: [
-+   require('postcss-cssvar-fallback'),
++   (require('postcss-cssvar-fallback'), {
++      themePath: path.join(__dirname, '../node_modules/@kdocs/kdesign-theme/default.css')
++   }),
     require('autoprefixer')
   ]
+}
+```
+
+**Step 4:** Ignore your theme file:
+
+eg:
+
+webpack
+
+```diff
+externals: {
++  '@kdocs/kdesign-theme/default.css': '""'
 }
 ```
 

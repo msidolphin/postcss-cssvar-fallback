@@ -5,7 +5,7 @@ const plugin = require('./')
 
 async function run (input, output) {
   let result = await postcss([plugin({
-    path: path.join(__dirname, './test.theme.css')
+    themePath: path.join(__dirname, './test.theme.css')
   })]).process(input, { from: undefined })
   expect(result.css).toEqual(output)
   expect(result.warnings()).toHaveLength(0)
